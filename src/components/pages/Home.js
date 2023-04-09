@@ -1,11 +1,11 @@
 import React from 'react';
-import me from "../../images"
+import myImage from '../images/me.jpg';
 export default function aboutMe() {
   return (
     <div>
       <section>
-      <img src="{me}" alt="me" />     
-       </section>
+        <img src={myImage} alt="me" width="200" height="220" />
+        <h1 className='text-3xl font-bold underline'>Hannah Edwards</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -18,6 +18,9 @@ export default function aboutMe() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
+      </section>
     </div>
+    
   );
 }
+
