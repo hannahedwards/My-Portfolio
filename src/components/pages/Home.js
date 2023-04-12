@@ -1,12 +1,14 @@
 import React from 'react';
 import myImage from '../images/me.jpg';
-export default function aboutMe() {
+export default function aboutMe() { //about me
   return (
     <div>
       <section>
-        <img src={myImage} alt="me" width="200" height="220" />
+        <div className=' mx-auto px-1 flex bg-red-100'>
+        <img src={myImage} alt="me" width="200" height="220"  />
         <h1 className='text-3xl font-bold underline'>Hannah Edwards</h1>
-      <p>
+        </div>
+      <p className='container'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
         ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras

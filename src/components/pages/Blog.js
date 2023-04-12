@@ -1,10 +1,10 @@
 import React from 'react';
 import resume from '../resume/Resume.pdf'
 
-export default function Blog() {
+export default function Blog() {//resume
   return (
     <div>
-    <a href={resume} download>Click to download PDF</a>
+    <a className='bg-indigo-500' href={resume} download>Click to download PDF</a>
 </div>
   )
 }

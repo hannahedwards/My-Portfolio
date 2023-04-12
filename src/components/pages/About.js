@@ -1,17 +1,40 @@
 import React from 'react';
-
-export default function About() {
+import notetaker from '../images/notetaker.png'
+import meme from '../images/meme.png'
+import weather from '../images/weather.png'
+import quiz from '../images/javaquiz.png'
+import dog from '../images/dogdaycare.png'
+export default function About() { //portfolio
   return (
     <div>
-      <h1>Portfolio</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <h1 className='bg-sky-900 flex justify-between items-center p-8 border-4'>Portfolio</h1>
+      <div className="columns-3">
+        <div>
+          <img className=" aspect-square " src={notetaker} alt='note taker app' />
+          <p>note taker</p>
+        </div>
+        <div>
+          <img className="w-full aspect-square " src={meme} alt='note taker app' />
+          <p>note taker</p>
+        </div>
+        <div>
+          <img className="w-full aspect-square " src={weather} alt='note taker app' />
+          <p>note taker</p>
+        </div>
+        <div>
+          <img className="w-full aspect-square " src={quiz} alt='note taker app' />
+          <p>note taker</p>
+        </div>
+        <div>
+          <img className="w-full aspect-square " src={dog} alt='note taker app' />
+          <p>note taker</p>
+        </div>
+        <div>
+          <img className="w-full aspect-square " src={notetaker} alt='note taker app' />
+          <p>note taker</p>
+        </div>
+      </div>
     </div>
+
   );
 }
