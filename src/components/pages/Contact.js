@@ -11,7 +11,7 @@ export default function Contact() { //contact me
 
   return (
     <div className="">
-      <form className='contact-form' onSubmit={handleSubmit(onSubmit)}>
+      <form className='form' onSubmit={handleSubmit(onSubmit)}>
         <div>
         <label htmlFor='name'>Full Name:</label>
         <input type='text' placeholder='First Name'></input>
@@ -22,7 +22,7 @@ export default function Contact() { //contact me
         </div>
         <div>
         <label htmlFor='message'>Message:</label>
-        <textarea type='text' placeholder='Whats your message?' rows='5' cols='30'></textarea>
+        <textarea className='border-solid border-2 border-purple-300 rounded-lg' type='text' placeholder='Whats your message?' rows='5' cols='30'></textarea>
         </div>
         <div>
         {errors.email && <span>Invalid email</span>}
