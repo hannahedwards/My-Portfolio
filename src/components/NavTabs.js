@@ -5,8 +5,8 @@ import myImage from './images/me.png';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
-      <ul className="nav nav-tabs grid grid-cols-4 content-end ">
-        <li className="nav-item">
+      <ul className="nav nav-tabs bg-purple-300">
+        <li className="nav-item border-solid border-2 border-purple-300 rounded-lg">
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             About Me
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item border-solid border-2 border-purple-300 rounded-lg">
           <a
             href="#about"
             onClick={() => handlePageChange('About')}
@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item border-solid border-2 border-purple-300 rounded-lg">
           <a
             href="#blog"
             onClick={() => handlePageChange('Blog')}
@@ -37,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item border-solid border-2 border-purple-300 rounded-lg">
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
@@ -50,7 +50,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </ul>
       <div className=' mx-auto px-1 flex bg-red-300/50'>
         <img src={myImage} alt="me" width="200" height="220" />
-        <h1 className='text-3xl font-bold '>Hannah Edwards</h1>
+        <h1 className='text-3xl font-bold text-white'>Hannah Edwards</h1>
       </div>
     </div>
   );
