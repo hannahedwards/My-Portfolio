@@ -11,7 +11,9 @@ export default function aboutMe() { //about me
           I am excited to explore how I can use my skills to create innovative and user-friendly web applications. I am also committed to continually learning to gain more knowledge and enhance my skills.
           As I embark on this new career path, I am eager to collaborate with other web developers and professionals to continue learning and growing in my role. Thank you for taking the time to visit my portfolio, and please feel free to contact me with any questions or opportunities!
         </p>
-        <img src={background1} alt="background" />
+        <div>
+          <img className='bg-no-repeat bg-cover h-screen w-screen' src={background1} alt="background" />
+        </div>
       </div>
     </div>
   );

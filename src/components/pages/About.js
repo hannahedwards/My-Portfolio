@@ -39,7 +39,9 @@ export default function About() { //portfolio
             </div>
           </div>
         </div>
-        <img src={background1} alt="background" />
+        <div>
+          <img className='bg-no-repeat bg-cover h-screen w-screen' src={background1} alt="background" />
+        </div>
       </div>
     </div>
   );

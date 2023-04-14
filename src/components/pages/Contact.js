@@ -33,7 +33,9 @@ export default function Contact() { //contact me
             </div>
           </form>
         </div>
-        <img src={background1} alt="background" />
+        <div>
+          <img className='bg-no-repeat bg-cover h-screen w-screen' src={background1} alt="background" />
+        </div>
       </div>
     </div>
   );
