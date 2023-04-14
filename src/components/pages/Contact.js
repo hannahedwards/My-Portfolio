@@ -12,14 +12,22 @@ export default function Contact() { //contact me
   return (
     <div className="">
       <form className='contact-form' onSubmit={handleSubmit(onSubmit)}>
+        <div>
         <label htmlFor='name'>Full Name:</label>
         <input type='text' placeholder='First Name'></input>
+        </div>
+        <div>
         <label>Email:</label>
         <input type="text" placeholder="Email" {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })}/>
+        </div>
+        <div>
         <label htmlFor='message'>Message:</label>
-        <textarea type='text' placeholder='Whats your message?' rows='10' cols='60'></textarea>
+        <textarea type='text' placeholder='Whats your message?' rows='5' cols='30'></textarea>
+        </div>
+        <div>
         {errors.email && <span>Invalid email</span>}
         <input type="submit" />
+        </div>
       </form>
     </div>
   );
