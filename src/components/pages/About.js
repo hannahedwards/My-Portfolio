@@ -18,7 +18,7 @@ export default function About() { //portfolio
             <p className='text-3xl underline underline-offset-8'>Science Project</p>
               <img className="m-2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg p-2 aspect-square " src={science} alt='science project' />
               <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/sadapannord/science-project" target="_blank" rel="noreferrer">GitHub</a>
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="" target="_blank" rel="noreferrer">Live Site</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/sadapannord/science-project" target="_blank" rel="noreferrer">Live Site</a>
             </div>
             <div className='m-3 p-3'>
             <p className='text-3xl underline underline-offset-8'>Doggy Daycare</p>
