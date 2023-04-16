@@ -17,38 +17,38 @@ export default function About() { //portfolio
           <div className='m-3 '>
             <p className='text-3xl underline underline-offset-8'>Science Project</p>
               <img className="m-2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg p-2 aspect-square " src={science} alt='science project' />
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/sadapannord/science-project" target="_blank">GitHub</a>
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="" target="_blank">Live Site</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/sadapannord/science-project" target="_blank" rel="noreferrer">GitHub</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="" target="_blank" rel="noreferrer">Live Site</a>
             </div>
             <div className='m-3 p-3'>
             <p className='text-3xl underline underline-offset-8'>Doggy Daycare</p>
               <img className="m-2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg p-2 aspect-square " src={dog} alt='doggy daycare' />
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/hannahedwards/dog-daycare.git" target="_blank">GitHub</a>
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://gentle-fjord-00735.herokuapp.com/" target="_blank">Live Site</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/hannahedwards/dog-daycare.git" target="_blank" rel="noreferrer">GitHub</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://gentle-fjord-00735.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</a>
             </div>
             <div className='m-3 p-3'>
             <p className='text-3xl underline underline-offset-8'>Note Taker</p>
               <img className="m-2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg p-2 aspect-square " src={notetaker} alt='note taker app' />
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/hannahedwards/NoteTaker" target="_blank">GitHub</a>
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href=" https://sheltered-ocean-65831.herokuapp.com/" target="_blank">Live Site</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/hannahedwards/NoteTaker" target="_blank" rel="noreferrer">GitHub</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href=" https://sheltered-ocean-65831.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</a>
             </div>
             <div className='m-3 p-3'>
             <p className='text-3xl underline underline-offset-8'>Cat Meme Generator </p>
               <img className="m-2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg p-2 aspect-square " src={meme} alt='cat memes' />
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/Pkrysinski/cat-meme-generator" target="_blank">GitHub</a>
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://pkrysinski.github.io/cat-meme-generator/" target="_blank">Live Site</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/Pkrysinski/cat-meme-generator" target="_blank" rel="noreferrer">GitHub</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://pkrysinski.github.io/cat-meme-generator/" target="_blank" rel="noreferrer">Live Site</a>
             </div>
             <div className='m-3 p-3'>
             <p className='text-3xl underline underline-offset-8'>Weather Dashboard</p>
               <img className="m-2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg p-2 aspect-square " src={weather} alt='weather app' />
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/hannahedwards/weather-dashboard" target="_blank">GitHub</a>
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://hannahedwards.github.io/weather-dashboard/" target="_blank">Live Site</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/hannahedwards/weather-dashboard" target="_blank" rel="noreferrer">GitHub</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://hannahedwards.github.io/weather-dashboard/" target="_blank" rel="noreferrer">Live Site</a>
             </div>
             <div className='m-3 p-3'>
             <p className='text-3xl underline underline-offset-8'>JavaScript Quiz</p>
               <img className="m-2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg p-2 aspect-square " src={quiz} alt='JavaScript quiz' />
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/hannahedwards/Javascript-quiz" target="_blank">GitHub</a>
-              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://hannahedwards.github.io/Javascript-quiz/" target="_blank">Live Site</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://github.com/hannahedwards/Javascript-quiz" target="_blank" rel="noreferrer">GitHub</a>
+              <a className='m-2 text-center text-white text-2xl bg-purple-300  border-solid border-2 border-purple-300 rounded-lg' href="https://hannahedwards.github.io/Javascript-quiz/" target="_blank" rel="noreferrer">Live Site</a>
             </div>
           </div>
         </div>
