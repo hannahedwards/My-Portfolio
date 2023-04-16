@@ -13,23 +13,23 @@ export default function Contact() { //contact me
   return (
     <div>
       <div className="relative">
-        <div className="absolute flex top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg">
+        <div className="absolute p-3 flex top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg">
           <form className='form' onSubmit={handleSubmit(onSubmit)}>
             <div>
               <label htmlFor='name'>Full Name:</label>
-              <input type='text' placeholder='First Name'></input>
+              <input className='border-solid border-2 border-purple-300 rounded-lg m-2 text-black'  type='text' placeholder='First Name'></input>
             </div>
             <div>
               <label>Email:</label>
-              <input type="text" placeholder="Email" {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })} />
+              <input className='border-solid border-2 border-purple-300 rounded-lg m-2 text-black'  type="text" placeholder="Email" {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })} />
             </div>
             <div>
               <label htmlFor='message'>Message:</label>
-              <textarea className='border-solid border-2 border-purple-300 rounded-lg' type='text' placeholder='Whats your message?' rows='5' cols='30'></textarea>
+              <textarea className='border-solid border-2 border-purple-300 rounded-lg m-2 text-black' type='text' placeholder='Whats your message?' rows='5' cols='30'></textarea>
             </div>
             <div>
-              {errors.email && <span>Invalid email</span>}
-              <input type="submit" />
+              {errors.email && <span className='italic text-sm'>Invalid email, try again:</span>}
+              <input className='border-solid border-2 border-purple-300 rounded-lg'  type="submit" />
             </div>
           </form>
         </div>

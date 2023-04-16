@@ -5,25 +5,25 @@ import myImage from './images/me.png';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
-      <ul className="nav nav-tabs bg-purple-300">
-        <li className="nav-item border-solid border-2 border-purple-300 rounded-lg">
+      <ul className="nav nav-tabs bg-red-300/25 grid grid-cols-4">
+        <li className="nav-item border-solid border-t-2 border-l-2 border-r-2 border-red-200 rounded">
           <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
             About Me
           </a>
         </li>
-        <li className="nav-item border-solid border-2 border-purple-300 rounded-lg">
+        <li className="nav-item border-solid border-t-2 border-l-2 border-r-2 border-red-200 rounded">
           <a
             href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} >
-            Portfolio
+            My Projects
           </a>
         </li>
-        <li className="nav-item border-solid border-2 border-purple-300 rounded-lg">
+        <li className="nav-item border-solid border-t-2 border-l-2 border-r-2 border-red-200 rounded">
           <a
             href="#blog" onClick={() => handlePageChange('Blog')} className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}>
             Resume
           </a>
         </li>
-        <li className="nav-item border-solid border-2 border-purple-300 rounded-lg">
+        <li className="nav-item border-solid border-t-2 border-l-2 border-r-2 border-red-200 rounded">
           <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} >
             Contact
           </a>

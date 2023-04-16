@@ -1,4 +1,4 @@
-# Note Taker
+# My Portfolio!
 ## Table of Contents
 - [Description of this project](#Description)
 - [How to contribute to this project](#Contribution)
@@ -8,7 +8,7 @@
 - [My Github](#GitHub)
 - [Project license](#License)
 ## Description
-I wanted to create a way to take notes and then and quick and easy access to them!
+
 ## Contributions
 Please ask first!
 ## Screen shots of this project
