@@ -5,7 +5,7 @@ export default function aboutMe() { //about me
   return (
     <div> 
       <div className="relative">
-        <div className='absolute text-center text-white text-2xl bg-purple-300/50  border-solid border-2 border-purple-300 rounded-lg mx-5 my-5'>
+        <div className='absolute text-center text-white text-2xl bg-purple-300/75  border-solid border-2 border-purple-300 rounded-lg mx-5 my-5 p-2'>
           <div className='text-justify indent-8'>
             As a newly minded web developer, I am thrilled to be embarking on a career in a field that I am passionate about. While I do not have prior experience as a web developer, I am excited to bring my skills to this new role and to learn as much as possible about the exciting world of web development.
           </div>
